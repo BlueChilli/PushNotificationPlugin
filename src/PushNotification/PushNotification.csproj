@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project  Sdk="MSBuild.Sdk.Extras/2.0.54">
+<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;MonoAndroid80;MonoAndroid81;MonoAndroid90;Xamarin.iOS10;</TargetFrameworks>
@@ -11,8 +11,8 @@
     <Version>1.4.0</Version>
     <Authors>Rendy Del Rosario, Sameer Khandekar, Px7-941</Authors>
     <PackageId>Plugin.PushNotification</PackageId>
-    <PackOnBuild>true</PackOnBuild>
-	<Copyright>Copyright © 2019 $(Authors)</Copyright>
+    <PackOnBuild>false</PackOnBuild>
+    <Copyright>Copyright © 2019 $(Authors)</Copyright>
     <Description>Receive and handle push notifications across Xamarin.iOS and Xamarin.Android</Description>
     <PackageTags>iOS,Android,push notifications,pcl,xamarin,plugins,xam.pcl,fcm,apn</PackageTags>
     <PackageLicenseUrl></PackageLicenseUrl>
@@ -20,7 +20,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/CrossGeeks/PushNotificationPlugin</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageReleaseNotes>1.4.0
 [Update] Bumped up Xamarin.Firebase.Messaging to &gt;= 60.1142.0
 [Fix] iOS 13 fix
