@@ -1,0 +1,16 @@
+{
+  "productName": "PushNotificationPlugin",
+  "projectName": "PushNotificationPlugin",
+  "githubOwner": "bluechilli",
+  "githubRepository": "PushNotificationPlugin",
+  "packageWhiteList": ["Plugin.PushNotification"],
+  "solutionFile": "../PushNotification.sln",
+  "tags": ["Xamarin"],
+  "authors": ["Rendy Del Rosario", "Sameer Khandekar", "Px7-941"],
+  "copyright": "Copyright 2019",
+  "iconUrl": "icon.png",
+  "testProjectPath": "",
+  "runUnitTests": false,
+  "nuspecRootPath": "../",
+  "artifactDirectory": "../build/artifacts/"
+}
